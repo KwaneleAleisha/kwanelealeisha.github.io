@@ -12,9 +12,9 @@ export const site = {
   portrait: `${import.meta.env.BASE_URL}images/kwanele-portrait.webp`,
   cv: `${import.meta.env.BASE_URL}documents/KAE-Ngwenya-Technical-CV.pdf`,
   year: 2026,
-  intro: "Early-career IT professional completing a Diploma in IT at Nelson Mandela University. Focused on IT support, networks and infrastructure, and open to WIL, internship and graduate opportunities.",
-  about: "I’m studying IT Support Services at Nelson Mandela University, where I’ve built a foundation in computer systems, networking, cybersecurity, databases and systems analysis. I’ve worked with troubleshooting, network configuration, SQL and data analysis tools. As Deputy Secretary of the NMU Geekulcha Student Society, I also support administration and student collaboration. I’m looking to apply what I’ve learned while continuing to develop practical experience.",
-  careerFocus: "Open to internship, Work Integrated Learning (WIL), graduate and entry-level roles in IT support, technical support, network administration, network support, systems administration, IT operations and entry-level cybersecurity.",
+  intro: "Graduate IT professional with a Diploma in IT from Nelson Mandela University. Focused on IT support, networks and infrastructure, and open to graduate, internship and entry-level opportunities.",
+  about: "I’m a graduate of IT Support Services at Nelson Mandela University, where I built a foundation in computer systems, networking, cybersecurity, databases and systems analysis. I’ve worked with troubleshooting, network configuration, SQL and data analysis tools. As Deputy Secretary of the NMU Geekulcha Student Society, I also supported administration and student collaboration. I’m looking to apply what I’ve learned while continuing to develop practical experience.",
+  careerFocus: "Open to graduate and entry-level roles in IT support, technical support, network administration, network support, systems administration, IT operations and entry-level cybersecurity.",
   copy: {
     nav: ["About", "Skills", "Tool Box", "Training", "Contact"],
     getInTouch: "Get in touch",
@@ -24,7 +24,7 @@ export const site = {
     aboutHeading: "About me",
     skillsHeading: "Skills",
     toolBoxHeading: "Tool Box",
-    toolBoxDescription: "Tools and technologies included in my studies and networking coursework.",
+    toolBoxDescription: "Tools and technologies developed through my studies and networking coursework.",
     trainingHeading: "Networking training",
     trainingNote: "Coursework completed through the Cisco Networking Academy.",
     contactHeading: "Get in touch",
@@ -33,10 +33,10 @@ export const site = {
 };
 
 export const facts = [
-  { label: "Studying", value: "Final-year Diploma in IT, IT Support Services" },
+  { label: "Education", value: "Diploma in IT, IT Support Services" },
   { label: "Training", value: "CCNA 1 and CCNA 2 coursework" },
   { label: "Leadership", value: "Deputy Secretary, NMU Geekulcha Student Society" },
-  { label: "Looking for", value: "Internship, WIL, graduate and entry-level IT roles" },
+  { label: "Looking for", value: "Graduate and entry-level IT roles" },
 ];
 
 export const timeline = [
@@ -49,7 +49,7 @@ export const timeline = [
   {
     title: "Diploma in Information Technology, IT Support Services",
     organization: "Nelson Mandela University",
-    date: "Final year",
+    date: "Completed",
     description: "Focus areas include IT support services, computer networking, cybersecurity, database management, systems analysis, computer hardware and software.",
   },
   {
